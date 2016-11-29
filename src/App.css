@@ -1,0 +1,36 @@
+html, body, #root {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+div.note {
+  position: absolute;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  cursor: -webkit-grab;
+  background-color: yellow;
+  box-shadow: 5px 5px 5px grey;
+}
+
+textarea {
+  width: 200px;
+  height: 200px;
+}
+
+div span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+div.board {
+  background-color: orange;
+  width: 100%;
+  height: 100%;
+}
